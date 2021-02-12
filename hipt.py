@@ -63,6 +63,7 @@ def open_file():
 
 #Set up the main window
 root.title("HIPT")
+root.resizable(False, False)
 content = Frame(root)
 
 #Set up the menubar
