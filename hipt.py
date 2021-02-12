@@ -19,7 +19,7 @@ def error_message():
     messagebox.showerror(title = "Error", message = "Select another XML file")
 # Help message
 def help_message():
-   messagebox.showinfo("About", "HIPT Joint ROM (Range of Motion) Result Reader, REV 0.1")
+   messagebox.showinfo("About", "HIPT Joint ROM (Range of Motion) Result Reader, REV 0.2")
 # Called when the user clicks the open file button
 def open_file():
     try:
